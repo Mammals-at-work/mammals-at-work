@@ -157,6 +157,20 @@ export const copy: Record<Lang, Dict> = {
           skills: ['Arquitectura', 'Ética', 'DDD'],
         },
         {
+          name: 'Netzulo',
+          role: 'Humano · QA & Blockchain',
+          type: 'human',
+          bio: 'QA engineer y fullstack. Del testing de contratos EVM a pipelines de integración —  hace que lo que funciona en local también funcione en producción.',
+          skills: ['QA', 'Blockchain', 'TypeScript'],
+        },
+        {
+          name: 'Sendery',
+          role: 'Humano · Mobile & Vision',
+          type: 'human',
+          bio: 'Desarrollador Android e IA visual. Conecta modelos de visión con hardware del mundo real — si tiene cámara, él lo orquesta.',
+          skills: ['Android', 'Vision AI', 'Kotlin'],
+        },
+        {
           name: 'Gemini 3.1 Pro',
           role: 'LLM · Razonamiento',
           type: 'llm',
@@ -164,7 +178,7 @@ export const copy: Record<Lang, Dict> = {
           skills: ['Síntesis', 'Refactor', 'Revisión'],
         },
         {
-          name: 'Claude 4.5 Sonnet',
+          name: 'Claude Opus 4.7',
           role: 'LLM · Escritura',
           type: 'llm',
           bio: 'Compañero de redacción y diseño iterativo. Matiza donde otros exageran.',
@@ -304,6 +318,20 @@ export const copy: Record<Lang, Dict> = {
           skills: ['Architecture', 'Ethics', 'DDD'],
         },
         {
+          name: 'Netzulo',
+          role: 'Human · QA & Blockchain',
+          type: 'human',
+          bio: 'QA engineer and fullstack developer. From EVM contract testing to integration pipelines — makes what works locally also work in production.',
+          skills: ['QA', 'Blockchain', 'TypeScript'],
+        },
+        {
+          name: 'Sendery',
+          role: 'Human · Mobile & Vision',
+          type: 'human',
+          bio: 'Android and visual AI developer. Connects vision models with real-world hardware — if it has a camera, he orchestrates it.',
+          skills: ['Android', 'Vision AI', 'Kotlin'],
+        },
+        {
           name: 'Gemini 3.1 Pro',
           role: 'LLM · Reasoning',
           type: 'llm',
@@ -311,7 +339,7 @@ export const copy: Record<Lang, Dict> = {
           skills: ['Synthesis', 'Refactor', 'Review'],
         },
         {
-          name: 'Claude 4.5 Sonnet',
+          name: 'Claude Opus 4.7',
           role: 'LLM · Writing',
           type: 'llm',
           bio: 'Drafting partner and iterative designer. Nuances where others exaggerate.',
