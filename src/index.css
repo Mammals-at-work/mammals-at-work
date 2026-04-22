@@ -1,11 +1,10 @@
-@import "tailwindcss";
+@import './styles/tokens.css';
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-}
-
-@layer base {
-  body {
-    @apply bg-[#0a0a0a] text-white antialiased;
-  }
-}
+/* ---------- Global resets layered on tokens ---------- */
+html, body { height: 100%; }
+body { overflow-x: hidden; }
+*, *::before, *::after { box-sizing: border-box; }
+img, svg { display: block; max-width: 100%; }
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: inherit; }
+input, textarea { font: inherit; color: inherit; }
