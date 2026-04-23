@@ -150,10 +150,10 @@ export const copy: Record<Lang, Dict> = {
       lead: 'Pequeño por diseño. Cada miembro —biológico o sintético— aporta una competencia que los demás no pueden suplir sin perder algo.',
       members: [
         {
-          name: 'Carlos Ledesma',
+          name: 'munchkin09',
           role: 'Humano · Arquitectura',
           type: 'human',
-          bio: 'Ocho años diseñando sistemas que no se caen. Escribe el contrato, decide cuándo decir no.',
+          bio: 'Diez y ocho años diseñando sistemas que no se caen. Escribe el contrato, decide cuándo decir no.',
           skills: ['Arquitectura', 'Ética', 'DDD'],
         },
         {
@@ -185,7 +185,7 @@ export const copy: Record<Lang, Dict> = {
           skills: ['Redacción', 'Matiz', 'Diseño'],
         },
         {
-          name: 'GPT-5 Omni',
+          name: 'GPT-5',
           role: 'LLM · Pipelines',
           type: 'llm',
           bio: 'Orquestador multimodal. Encaja voz, imagen y código en el mismo contrato de R-A-S-I-S.',
@@ -311,7 +311,7 @@ export const copy: Record<Lang, Dict> = {
       lead: 'Small by design. Each member — biological or synthetic — brings a capability the others can\'t replace without losing something.',
       members: [
         {
-          name: 'Carlos Ledesma',
+          name: 'munchkin09',
           role: 'Human · Architecture',
           type: 'human',
           bio: 'Eight years designing systems that don\'t fall over. Writes the contract, decides when to say no.',
